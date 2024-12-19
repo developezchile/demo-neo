@@ -1,0 +1,42 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/com/.DS_Store
+src/main/java/com/nisum/.DS_Store
+src/main/java/com/nisum/persistence/.DS_Store
+src/main/java/com/nisum/web/.DS_Store
+
+.DS_Store
+
+
