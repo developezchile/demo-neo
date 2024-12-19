@@ -11,4 +11,4 @@
 4. Crear un usuario (/auth/signup) y luego logearse (/auth/login) para obtener token
 5. Llamar a "crear usuario" y "listado usuario" usuando el token generado, se incluyen json request para hacer pruebas
 
-Swagger disponible en http://localhost:8005/swagger-ui.html
+Swagger disponible en http://localhost:8080/swagger-ui.html

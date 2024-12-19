@@ -21,12 +21,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8005/auth/signup",
+					"raw": "http://localhost:8080/auth/signup",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8005",
+					"port": "8080",
 					"path": [
 						"auth",
 						"signup"
@@ -63,12 +63,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8005/auth/login",
+					"raw": "http://localhost:8080/auth/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8005",
+					"port": "8080",
 					"path": [
 						"auth",
 						"login"
@@ -106,7 +106,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"name\",\n    \"email\": \"hola2@hola.com\",\n    \"password\": \"Aasdada12\",\n    \"phones\": [\n        {\n            \"number\": \"3300412\",\n            \"cityCode\": \"412\",\n            \"countryCode\": \"1\"\n        }\n    ]\n}",
+					"raw": "{\n    \"name\": \"name\",\n    \"email\": \"hola@hola.com\",\n    \"password\": \"Aasdada12\",\n    \"phones\": [\n        {\n            \"number\": \"3300412\",\n            \"cityCode\": \"412\",\n            \"countryCode\": \"1\"\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -114,12 +114,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8005/api/users",
+					"raw": "http://localhost:8080/api/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8005",
+					"port": "8080",
 					"path": [
 						"api",
 						"users"
@@ -144,12 +144,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8005/api/users",
+					"raw": "http://localhost:8080/api/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8005",
+					"port": "8080",
 					"path": [
 						"api",
 						"users"
